@@ -20,7 +20,7 @@ const Login = () => {
           Masuk atau daftar untuk mendapatkan pengalaman terbaik dari Rumah.com.
         </h2>
         <button onClick={handleGoogleSignIn}>Sign in with Google</button>
-        <button onClick={handleFacebookSignIn}>Sign in with Facebook</button>
+        {/* <button onClick={handleFacebookSignIn}>Sign in with Facebook</button> */}
       </div>
     </div>
   );

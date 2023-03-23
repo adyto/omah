@@ -29,10 +29,10 @@ export const authOptions = {
       clientId: getGoogleCredentials().clientId,
       clientSecret: getGoogleCredentials().clientSecret,
     }),
-    FacebookProvider({
-      clientId: getFacebookCredentials().clientId,
-      clientSecret: getFacebookCredentials().clientSecret,
-    }),
+    // FacebookProvider({
+    //   clientId: getFacebookCredentials().clientId,
+    //   clientSecret: getFacebookCredentials().clientSecret,
+    // }),
     // ...add more providers here
   ],
   callbacks: {
